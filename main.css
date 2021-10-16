@@ -1,18 +1,23 @@
-body{
+body {
    background-color: #00000003;
 }
 
-#container{
+#container {
     width: 101%;
     height: 90px;
     background:#a5a5a50a;
     margin-top: -1%;
     margin-left: -1%;
     position: fixed;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.13);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0, 0, 0, 0.027);
 }
 
-#symbol{
+#symbol {
     margin-top: 1.30%;
     margin-left: 1.30%;
+}
+
+#icons {
+   margin-top: 5%;
+   margin-left: 55%;
 }
