@@ -4,20 +4,50 @@ body {
 
 #container {
     width: 101%;
-    height: 90px;
+    height: 100px;
     background:#ffffff61;
-    margin-top: -1%;
+    margin-top: 2%;
     margin-left: -1%;
     position: fixed;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.082), 0 6px 6px rgba(0, 0, 0, 0.027);
 }
 
 #symbol {
-    margin-top: 1.30%;
+    margin-top: 1.50%;
     margin-left: 1.30%;
 }
 
 #icons {
-   margin-top: 5%;
+   margin-top: 10.5%;
    margin-left: 55%;
+}
+
+#clinicname {
+    margin-left: 37%;
+    margin-top: -3%;
+    position: fixed;
+    font-family: Brush Script MT, Brush Script Std, cursive; 
+    font-size: 450%;
+    text-align: center;
+}
+
+#highercontainer {
+   width: 101%;
+   height: 40px; 
+   position: fixed; 
+   margin-top: -1%; 
+   margin-left: -1%;
+   background-color: #fffcfca1;
+   border-style: solid;
+   border-width: 0.2px;
+   border-collapse: collapse;
+   border-color: rgba(39, 39, 39, 0.123);
+}
+
+#telephone {
+    filter: invert(.5);
+    width: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    vertical-align: middle;
 }
