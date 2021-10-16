@@ -1,12 +1,16 @@
 body {
    background-color: #00000003;
+    background-image: url(../HtmlCss/p1-img/symbolopacity.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 3%;
 }
 
 #container {
     width: 101%;
     height: 100px;
     background:#ffffff61;
-    margin-top: 2%;
+    margin-top: 0%;
     margin-left: -1%;
     position: fixed;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.082), 0 6px 6px rgba(0, 0, 0, 0.027);
@@ -19,12 +23,12 @@ body {
 
 #icons {
    margin-top: 10.5%;
-   margin-left: 55%;
+   margin-left: 60%;
 }
 
-#clinicname {
-    margin-left: 37%;
-    margin-top: -3%;
+#name {
+    margin-left: 42%;
+    margin-top: -4%;
     position: fixed;
     font-family: Brush Script MT, Brush Script Std, cursive; 
     font-size: 450%;
@@ -35,7 +39,7 @@ body {
    width: 101%;
    height: 40px; 
    position: fixed; 
-   margin-top: -1%; 
+   margin-top: -3%; 
    margin-left: -1%;
    background-color: #fffcfca1;
    border-style: solid;
