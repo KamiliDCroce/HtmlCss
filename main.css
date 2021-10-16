@@ -46,8 +46,22 @@ body {
 
 #telephone {
     filter: invert(.5);
-    width: 1%;
-    margin-top: 1%;
-    margin-left: 1%;
+    width: 0.8%;
+    margin-top: 1.27%;
+    margin-left: 60.5%;
     vertical-align: middle;
+    position: fixed;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../HtmlCss/font/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+#telnumber {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    color: #7a7a7a!important;
+    display: inline-block;
+    margin-left: 61%;
+    
 }
