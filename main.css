@@ -1,9 +1,10 @@
 body {
-   background-color: #00000003;
+    background-color: #00000003;
     background-image: url(../HtmlCss/p1-img/symbolopacity.png);
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 3%;
+    position: relative;
 }
 
 #container {
@@ -22,8 +23,8 @@ body {
 }
 
 #icons {
-   margin-top: 10.5%;
-   margin-left: 60%;
+   margin-top: -28%;
+   margin-left: 61%;
 }
 
 #name {
@@ -69,3 +70,28 @@ body {
     margin-left: 61%;
     
 }
+
+button {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    border-color: transparent;
+    display: inline-block;
+    position: fixed;
+    margin-top: -8%;
+    margin-left: 8%;
+}
+
+#containertext {
+    width: 40%;
+    margin-right: 50%;
+    margin-left: 2%;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+#p1 {
+    color: #302e2e;
+}
+
+
