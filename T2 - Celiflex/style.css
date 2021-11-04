@@ -1,3 +1,43 @@
-body {
+
+#logo {
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-top: 3%;
+    background: no-repeat center;
+    background-size: cover;
     background-color: #002B0E;
+}
+
+#imgsize {
+    width: 130px;
+}
+
+#btn {
+    position: relative;
+    text-align: center;
+    background-color: #002B0E;
+    display: block;
+    max-width: min-content;
+}
+
+@font-face {
+    font-family: "OpenSans-ExtraBold";
+    src: url("../T2 - Celiflex/font/OpenSans-ExtraBold.ttf");
+}
+
+p {
+    font-family: "OpenSans-ExtraBold", Arial, Helvetica, sans-serif;
+    background-color: #16863A;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+
+}
+
+#bborder {
+    width: 30%;
+    margin-right: 30% ;
 }
